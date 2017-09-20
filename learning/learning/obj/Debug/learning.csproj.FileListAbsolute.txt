@@ -62,6 +62,9 @@ D:\Projects\learning\learning\learning\learning\bin\Microsoft.AI.DependencyColle
 D:\Projects\learning\learning\learning\learning\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\Projects\learning\learning\learning\learning\bin\Microsoft.AI.WindowsServer.xml
 D:\Projects\learning\learning\learning\learning\bin\Microsoft.AI.Web.xml
-D:\Projects\learning\learning\learning\learning\obj\Debug\learning.csprojResolveAssemblyReference.cache
 D:\Projects\learning\learning\learning\learning\obj\Debug\learning.dll
 D:\Projects\learning\learning\learning\learning\obj\Debug\learning.pdb
+D:\Projects\learning\learning\learning\learning\bin\EntityFramework.dll
+D:\Projects\learning\learning\learning\learning\bin\EntityFramework.SqlServer.dll
+D:\Projects\learning\learning\learning\learning\bin\EntityFramework.xml
+D:\Projects\learning\learning\learning\learning\bin\EntityFramework.SqlServer.xml

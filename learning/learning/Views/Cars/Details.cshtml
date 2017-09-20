@@ -1,0 +1,74 @@
+﻿@model learning.Models.Car
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Car</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.carModel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.carModel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.carSeats)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.carSeats)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.carColor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.carColor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.carManYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.carManYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.carLicensePlate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.carLicensePlate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.carDayPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.carDayPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.carImage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.carImage)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.carId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
